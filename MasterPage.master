@@ -1,0 +1,62 @@
+﻿
+<script runat="server">
+
+    
+   
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head id="Head1" runat="server">
+        <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
+      <script src="dentist.js" language="javascript" type="text/javascript"></script>
+   
+        <title></title><style type="text/css">
+                           .auto-style1 {
+                               width: 1612px;
+                               height: 22px;
+                           }
+                           .auto-style5 {
+                               width: 870px;
+                               height: 75px;
+                           }
+                           .auto-style10 {
+                               height: 350px;
+                               width: 1612px;
+                           }
+                         </style></head><body style="width: 1027px; margin-bottom: 0px; height: 1260px;">
+                             <%--<form id="form1" runat="server">--%>
+       
+
+        <div style="width: 1025px">
+            
+   
+            <table class="auto-style5" bgcolor=" #ccffff"   style="margin-left:10px; width: 1016px;" >
+                <tr>
+                    <td 
+                        <span bgcolor="#ccffff" class="auto-style10" style="font-size: xx-large">Pearl Dental Clinic </span> 
+                        <span class="w3-hide-small" style="font-size: medium; font-style: italic;">
+                        <br />
+                        <br />
+                        Smile with shining teeth</span>
+                 
+                   </td>
+            </tr>
+                <tr>
+                   
+                    <td valign="top" class="auto-style1"  style="border-left: medium double #000000; border-right: medium double #000000; border-top: medium double #000000; border-bottom: medium none #000000; 
+ background-repeat: inherit; background-attachment: scroll; background-position: 100px 100px; background-color: #ccffff; border-style: none;">
+                                               
+                        
+                        <asp:ContentPlaceHolder ID="maincontent" runat="server" >
+                            <div  width:" 1004px; height: 213px;  background-color: #ccffff">
+                            </div>
+                          
+                          
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                </table>
+        </div>
+<%--    </form>--%>
+        </body>
+</html>
